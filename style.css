@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; 
+    color: #333;
+}
+
+header {
+    background-color: #0288d1; 
+    color: white;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    color: #0288d1;
+}
+
+main .plage {
+    margin-bottom: 20px;
+}
+
+main .plage h2 {
+    color: #0288d1;
+}
+
+main .plage img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+main .plage a {
+    color: #0288d1;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+main .plage a:hover {
+    text-decoration: underline;
+}
+
+main .section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ .flexbox { /* la flexbox */
+    display: flex;
+    flex-direction: row ; /* tu peux mettre column  */
+}
+
+ .flexbox .case {
+    flex: 1 0 200px;
+    width: 33.33%; 
+    height: 300px;
+    color : black;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #026ba3;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#exemple {  /* l'id */
+    text-align: left;
+    color: skyblue;
+    width: 500 px;
+}
+.flexbox {
+    display: flex;
+    gap: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .flexbox .case {
+    color: white;
+}
+
+.case {
+    background: #0288d1; 
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    transition: background 0.3s, transform 0.3s;
+   
+}
+
+.case:hover {
+    background: #0288d1; 
+    transform: scale(1.05);
+}
+
+ <style>
+        #exemple {
+            background-color: blue;
+            color: white; /* Pour rendre le texte lisible sur le fond bleu */
+            padding: 10px; /* Optionnel : pour ajouter de l'espace autour du texte */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="exemple">Regardons</h1>
+</body>
+</html>
